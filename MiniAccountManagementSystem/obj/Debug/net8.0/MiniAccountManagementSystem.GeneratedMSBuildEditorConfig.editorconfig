@@ -24,8 +24,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Admin/ManageModuleAccessModel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlTW9kdWxlQWNjZXNzTW9kZWwuY3NodG1s
+[D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Admin/ManageModuleAccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlTW9kdWxlQWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Admin/ManageUsers.cshtml]

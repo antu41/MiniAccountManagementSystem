@@ -2,34 +2,41 @@ using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using System.Data;
 
 namespace MiniAccountManagementSystem.Pages.Admin
 {
-    public class ManageModuleAccessModelModel : PageModel
+    public class ManageModuleAccessModel : PageModel
     {
         private readonly IConfiguration _configuration;
-
-        public ManageModuleAccessModelModel(IConfiguration configuration)
+        public ManageModuleAccessModel(IConfiguration configuration)
         {
             _configuration = configuration;
         }
-        public void OnGet()
-        {
-        }
+
         public List<ModuleAccessViewModel> ModuleAccesses { get; set; }
         public List<string> Roles { get; set; } = new List<string> { "Admin", "Accountant", "Viewer" };
         public List<string> Modules { get; set; } = new List<string> { "ChartOfAccounts", "VoucherEntry" };
 
         public async Task OnGetAsync()
         {
-            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            try
             {
-                ModuleAccesses = (await connection.QueryAsync<ModuleAccessViewModel>(
-                    "sp_ManageModuleAccess",
-                    new { Action = "List" },
-                    commandType: CommandType.StoredProcedure)).ToList();
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+                {
+                    ModuleAccesses = (await connection.QueryAsync<ModuleAccessViewModel>(
+                        "sp_ManageModuleAccess",
+                        new { Action = "List" },
+                        commandType: CommandType.StoredProcedure)).ToList();
+                }
             }
+            catch (Exception ex)
+            {
+                // Handle exceptions (e.g., log them)
+                ModelState.AddModelError(string.Empty, "An error occurred while loading module access data.");
+            }
+
         }
 
         public async Task<IActionResult> OnPostAsync(string roleName, string moduleName, bool canAccess)
@@ -51,5 +58,4 @@ namespace MiniAccountManagementSystem.Pages.Admin
         public string ModuleName { get; set; }
         public bool CanAccess { get; set; }
     }
-
 }

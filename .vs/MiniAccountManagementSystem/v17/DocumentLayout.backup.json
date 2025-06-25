@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Antu\\MiniAccountManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\managemoduleaccessmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\managemoduleaccessmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\managemoduleaccessmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\managemoduleaccessmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,27 +59,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManageModuleAccessModel.cshtml.cs",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml.cs",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml.cs",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml.cs",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCMAAAAJAAAAAAAAAA==",
+              "Title": "ManageModuleAccess.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAjwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:11:33.273Z",
+              "WhenOpened": "2025-06-25T06:37:17.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ManageModuleAccessModel.cshtml",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccessModel.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ManageModuleAccess.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T06:11:29.814Z",
+              "WhenOpened": "2025-06-25T06:37:12.902Z",
               "EditorCaption": ""
             },
             {
@@ -90,7 +90,7 @@
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
               "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T05:53:17.262Z",
               "EditorCaption": ""
@@ -105,8 +105,7 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:52:56.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:52:56.746Z"
             },
             {
               "$type": "Document",
@@ -118,8 +117,7 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T05:50:48.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:50:48.352Z"
             },
             {
               "$type": "Document",
@@ -131,8 +129,7 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:50:12.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:50:12.199Z"
             },
             {
               "$type": "Document",

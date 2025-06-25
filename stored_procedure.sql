@@ -32,16 +32,29 @@ BEGIN
 END;
 
 -- sp_ManageModuleAccess
-CREATE PROCEDURE sp_ManageModuleAccess
+ALTER PROCEDURE [dbo].[sp_ManageModuleAccess]
     @Action NVARCHAR(50),
-    @RoleName NVARCHAR(256),
-    @ModuleName NVARCHAR(100),
+    @RoleName NVARCHAR(256) = NULL,
+    @ModuleName NVARCHAR(100) = NULL,
     @CanAccess BIT = NULL
 AS
 BEGIN
     IF @Action = 'Upsert'
     BEGIN
-        IF NOT EXISTS (SELECT 1 FROM ModuleAccess WHERE RoleName = @RoleName AND ModuleName = @ModuleName)
+        IF NOT EXISTS (
+            SELECT 1 
+            FROM ModuleAccess 
+            WHERE 
+                (
+                    (@RoleName IS NULL AND RoleName IS NULL) 
+                    OR RoleName = @RoleName
+                )
+                AND
+                (
+                    (@ModuleName IS NULL AND ModuleName IS NULL) 
+                    OR ModuleName = @ModuleName
+                )
+        )
         BEGIN
             INSERT INTO ModuleAccess (RoleName, ModuleName, CanAccess)
             VALUES (@RoleName, @ModuleName, @CanAccess)
@@ -50,12 +63,22 @@ BEGIN
         BEGIN
             UPDATE ModuleAccess
             SET CanAccess = @CanAccess
-            WHERE RoleName = @RoleName AND ModuleName = @ModuleName
+            WHERE 
+                (
+                    (@RoleName IS NULL AND RoleName IS NULL) 
+                    OR RoleName = @RoleName
+                )
+                AND
+                (
+                    (@ModuleName IS NULL AND ModuleName IS NULL) 
+                    OR ModuleName = @ModuleName
+                )
         END
     END
+
     IF @Action = 'List'
     BEGIN
         SELECT RoleName, ModuleName, CanAccess
         FROM ModuleAccess
     END
-END;
+END

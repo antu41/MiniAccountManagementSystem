@@ -1,0 +1,51 @@
+﻿@page
+@model MiniAccountManagementSystem.Pages.Admin.ManageModuleAccessModel
+@{
+    ViewData["Title"] = "Manage Module Access";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<h1>Manage Module Access</h1>
+<form method="post">
+    <div class="form-group">
+        <label>Role</label>
+        <select name="roleName" class="form-control">
+            @foreach (var role in Model.Roles)
+            {
+                <option value="@role">@role</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Module</label>
+        <select name="moduleName" class="form-control">
+            @foreach (var module in Model.Modules)
+            {
+                <option value="@module">@module</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Can Access</label>
+        <input type="checkbox" name="canAccess" value="true" class="form-check-input" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Role</th>
+            <th>Module</th>
+            <th>Can Access</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var access in Model.ModuleAccesses)
+        {
+            <tr>
+                <td>@access.RoleName</td>
+                <td>@access.ModuleName</td>
+                <td>@access.CanAccess</td>
+            </tr>
+        }
+    </tbody>
+</table>
