@@ -1,0 +1,176 @@
+﻿@page
+@model MiniAccountManagementSystem.Pages.Accounts.ManageAccountsModel
+
+@{
+    ViewData["Title"] = "Manage Accounts";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Chart of Accounts</h2>
+
+            @if (Model.RootAccounts.Any())
+            {
+                <div class="account-tree">
+                    @foreach (var account in Model.RootAccounts)
+                    {
+                        @await Html.PartialAsync("_AccountTree", account)
+                    }
+                </div>
+            }
+            else
+            {
+                <p class="text-muted">No accounts found. Create your first account using the form on the right.</p>
+            }
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Add New Account</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-page-handler="Create">
+                        <div class="mb-3">
+                            <label asp-for="Account.AccountName" class="form-label">Account Name</label>
+                            <input asp-for="Account.AccountName" class="form-control" required />
+                            <span asp-validation-for="Account.AccountName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Account.AccountType" class="form-label">Account Type</label>
+                            <select asp-for="Account.AccountType" class="form-control" required>
+                                <option value="">Select Type</option>
+                                <option value="Cash">Cash</option>
+                                <option value="Bank">Bank</option>
+                                <option value="Receivable">Receivable</option>
+                            </select>
+                            <span asp-validation-for="Account.AccountType" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Account.ParentId" class="form-label">Parent Account</label>
+                            <select asp-for="Account.ParentId" class="form-control">
+                                <option value="">None (Root Account)</option>
+                                @foreach (var parent in Model.Accounts)
+                                {
+                                    <option value="@parent.Id">@parent.AccountName</option>
+                                }
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Modal Template -->
+@foreach (var account in Model.Accounts)
+{
+    <div class="modal fade" id="editModal_@account.Id" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form method="post" asp-page-handler="Update">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Edit Account: @account.AccountName</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" name="Account.Id" value="@account.Id" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Account Name</label>
+                            <input name="Account.AccountName" value="@account.AccountName" class="form-control" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Account Type</label>
+                            <select name="Account.AccountType" class="form-control" required>
+                                <option value="Cash" selected="@(account.AccountType == "Cash")">Cash</option>
+                                <option value="Bank" selected="@(account.AccountType == "Bank")">Bank</option>
+                                <option value="Receivable" selected="@(account.AccountType == "Receivable")">Receivable</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Parent Account</label>
+                            <select name="Account.ParentId" class="form-control">
+                                <option value="">None (Root Account)</option>
+                                @foreach (var parent in Model.Accounts.Where(p => p.Id != account.Id))
+                                {
+                                    <option value="@parent.Id" selected="@(account.ParentId == parent.Id)">@parent.AccountName</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    .account-tree {
+        border-left: 2px solid #dee2e6;
+        margin-left: 10px;
+    }
+
+    .account-node {
+        position: relative;
+        padding: 8px 15px;
+        border-bottom: 1px solid #f8f9fa;
+    }
+
+    .account-node::before {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: 0;
+        bottom: 50%;
+        border-left: 2px solid #dee2e6;
+    }
+
+    .account-node::after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: 50%;
+        width: 15px;
+        border-top: 2px solid #dee2e6;
+    }
+
+    .account-node:last-child::before {
+        bottom: 50%;
+    }
+
+    .account-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .account-details {
+        flex-grow: 1;
+    }
+
+    .account-actions {
+        margin-left: 10px;
+    }
+
+    .account-children {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .btn-sm {
+        margin-left: 5px;
+    }
+</style>

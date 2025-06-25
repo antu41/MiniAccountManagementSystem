@@ -1,4 +1,5 @@
 using Dapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,6 +9,7 @@ using System.Data;
 
 namespace MiniAccountManagementSystem.Pages.Admin
 {
+    [Authorize(Roles = "Admin")]
     public class ManageUsersModel : PageModel
     {
         private readonly UserManager<IdentityUser> _userManager;

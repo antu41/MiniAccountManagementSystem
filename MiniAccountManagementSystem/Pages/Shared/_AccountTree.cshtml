@@ -1,0 +1,36 @@
+﻿@model MiniAccountManagementSystem.Pages.Accounts.AccountViewModel
+
+
+<div class="account-node">
+    <div class="account-info">
+        <div class="account-details">
+            <strong>@Model.AccountName</strong>
+            <small class="text-muted">(@Model.AccountType)</small>
+        </div>
+        <div class="account-actions">
+            <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#editModal_@Model.Id">
+                <i class="fas fa-edit"></i> Edit
+            </button>
+            <form method="post"
+                  asp-page="/Admin/ManageAccounts"
+                  asp-page-handler="Delete"
+                  asp-route-id="@Model.Id"
+                  class="d-inline">
+                <button type="submit" class="btn btn-sm btn-danger"
+                        onclick="return confirm('Are you sure you want to delete this account? This action cannot be undone.');">
+                    <i class="fas fa-trash"></i> Delete
+                </button>
+            </form>
+        </div>
+    </div>
+
+    @if (Model.Children.Any())
+    {
+        <div class="account-children">
+            @foreach (var child in Model.Children)
+            {
+                @await Html.PartialAsync("_AccountTree", child)
+            }
+        </div>
+    }
+</div>

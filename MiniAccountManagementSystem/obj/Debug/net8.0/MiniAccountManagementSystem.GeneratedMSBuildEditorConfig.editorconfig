@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Admin/ManageAccounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlQWNjb3VudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Admin/ManageModuleAccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlTW9kdWxlQWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Shared/_AccountTree.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BY2NvdW50VHJlZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Antu/MiniAccountManagementSystem/MiniAccountManagementSystem/Pages/Shared/_LoginPartial.cshtml]

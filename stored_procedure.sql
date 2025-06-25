@@ -82,3 +82,48 @@ BEGIN
         FROM ModuleAccess
     END
 END
+
+-- sp_ManageChartofAccounts
+CREATE PROCEDURE [dbo].[sp_ManageChartofAccounts]
+    @Action NVARCHAR(50),
+    @Id INT = NULL,
+    @AccountName NVARCHAR(100) = NULL,
+    @AccountType NVARCHAR(50) = NULL,
+    @ParentId INT = NULL
+AS
+BEGIN
+    IF @Action = 'Create'
+    BEGIN
+        INSERT INTO ChartOfAccounts (AccountName, AccountType, ParentId)
+        VALUES (@AccountName, @AccountType, @ParentId)
+        SELECT SCOPE_IDENTITY() AS Id
+    END
+    ELSE IF @Action = 'Update'
+    BEGIN
+        UPDATE ChartOfAccounts
+        SET AccountName = @AccountName, AccountType = @AccountType, ParentId = @ParentId
+        WHERE Id = @Id
+    END
+ELSE IF @Action = 'Delete'
+BEGIN
+    ;WITH RecursiveAccounts AS (
+        SELECT Id
+        FROM ChartOfAccounts
+        WHERE Id = @Id
+
+        UNION ALL
+
+        SELECT ca.Id
+        FROM ChartOfAccounts ca
+        INNER JOIN RecursiveAccounts ra ON ca.ParentId = ra.Id
+    )
+    DELETE FROM ChartOfAccounts
+    WHERE Id IN (SELECT Id FROM RecursiveAccounts)
+END
+
+    ELSE IF @Action = 'List'
+    BEGIN
+        SELECT Id, AccountName, AccountType, ParentId
+        FROM ChartOfAccounts
+    END
+END;
