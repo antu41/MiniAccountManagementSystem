@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MiniAccountManagementSystem.Pages
+namespace MiniAccountManagementSystem.Pages.Admin
 {
     public class SeedRolesModel : PageModel
     {
