@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Antu\\MiniAccountManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\data\\migrations\\20250625032019_creatingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\data\\migrations\\20250625032019_creatingdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Program.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Program.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:18:35.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250625032019_CreatingDB.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Data\\Migrations\\20250625032019_CreatingDB.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Data\\Migrations\\20250625032019_CreatingDB.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Data\\Migrations\\20250625032019_CreatingDB.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Data\\Migrations\\20250625032019_CreatingDB.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:20:20.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\appsettings.json",
+              "RelativeToolTip": "MiniAccountManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T03:16:04.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
