@@ -84,7 +84,7 @@ BEGIN
 END
 
 -- sp_ManageChartofAccounts
-CREATE PROCEDURE [dbo].[sp_ManageChartofAccounts]
+CREATE OR ALTER PROCEDURE [dbo].[sp_ManageChartofAccounts]
     @Action NVARCHAR(50),
     @Id INT = NULL,
     @AccountName NVARCHAR(100) = NULL,
@@ -92,38 +92,73 @@ CREATE PROCEDURE [dbo].[sp_ManageChartofAccounts]
     @ParentId INT = NULL
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     IF @Action = 'Create'
     BEGIN
         INSERT INTO ChartOfAccounts (AccountName, AccountType, ParentId)
         VALUES (@AccountName, @AccountType, @ParentId)
+
         SELECT SCOPE_IDENTITY() AS Id
     END
+
     ELSE IF @Action = 'Update'
     BEGIN
+        -- Prevent circular reference: Ensure new ParentId is not a descendant of current Id
+        IF @ParentId IS NOT NULL
+        BEGIN
+            -- Store descendants in a table variable
+            DECLARE @Descendants TABLE (Id INT)
+
+            ;WITH RecursiveAccounts AS (
+                SELECT Id
+                FROM ChartOfAccounts
+                WHERE ParentId = @Id
+
+                UNION ALL
+
+                SELECT ca.Id
+                FROM ChartOfAccounts ca
+                INNER JOIN RecursiveAccounts ra ON ca.ParentId = ra.Id
+            )
+            INSERT INTO @Descendants (Id)
+            SELECT Id FROM RecursiveAccounts
+
+            -- Check if new ParentId is a descendant
+            IF EXISTS (SELECT 1 FROM @Descendants WHERE Id = @ParentId)
+            BEGIN
+                RAISERROR('Invalid update: Circular reference detected.', 16, 1)
+                RETURN
+            END
+        END
+
         UPDATE ChartOfAccounts
-        SET AccountName = @AccountName, AccountType = @AccountType, ParentId = @ParentId
+        SET AccountName = @AccountName,
+            AccountType = @AccountType,
+            ParentId = @ParentId
         WHERE Id = @Id
     END
-ELSE IF @Action = 'Delete'
-BEGIN
-    ;WITH RecursiveAccounts AS (
-        SELECT Id
-        FROM ChartOfAccounts
-        WHERE Id = @Id
 
-        UNION ALL
+    ELSE IF @Action = 'Delete'
+    BEGIN
+        ;WITH RecursiveAccounts AS (
+            SELECT Id
+            FROM ChartOfAccounts
+            WHERE Id = @Id
 
-        SELECT ca.Id
-        FROM ChartOfAccounts ca
-        INNER JOIN RecursiveAccounts ra ON ca.ParentId = ra.Id
-    )
-    DELETE FROM ChartOfAccounts
-    WHERE Id IN (SELECT Id FROM RecursiveAccounts)
-END
+            UNION ALL
+
+            SELECT ca.Id
+            FROM ChartOfAccounts ca
+            INNER JOIN RecursiveAccounts ra ON ca.ParentId = ra.Id
+        )
+        DELETE FROM ChartOfAccounts
+        WHERE Id IN (SELECT Id FROM RecursiveAccounts)
+    END
 
     ELSE IF @Action = 'List'
     BEGIN
         SELECT Id, AccountName, AccountType, ParentId
         FROM ChartOfAccounts
     END
-END;
+END

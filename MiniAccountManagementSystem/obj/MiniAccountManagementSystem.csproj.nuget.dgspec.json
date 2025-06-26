@@ -56,7 +56,7 @@
             },
             "EPPlus": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[7.7.2, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

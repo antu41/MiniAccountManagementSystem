@@ -168,6 +168,7 @@ D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\Dapper.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\EPPlus.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\EPPlus.System.Drawing.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\Humanizer.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -223,7 +224,6 @@ D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Security.Permissions.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -284,9 +284,7 @@ D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Antu\MiniAccountManagementSystem\MiniAccountManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll

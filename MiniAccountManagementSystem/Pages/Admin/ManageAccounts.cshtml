@@ -4,6 +4,19 @@
 @{
     ViewData["Title"] = "Manage Accounts";
 }
+@if (TempData["UpdateError"] != null)
+{
+    <script>
+        alert("@TempData["UpdateError"]");
+    </script>
+}
+@if (TempData["DeleteError"] != null)
+{
+    <script>
+        alert("@TempData["DeleteError"]");
+    </script>
+}
+
 
 <div class="container-fluid">
     <div class="row">

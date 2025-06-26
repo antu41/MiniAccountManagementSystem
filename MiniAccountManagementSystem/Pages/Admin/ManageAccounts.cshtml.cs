@@ -90,40 +90,70 @@ namespace MiniAccountManagementSystem.Pages.Accounts
         {
             if (!ModelState.IsValid)
             {
-                await OnGetAsync(); // Reload data
+                await OnGetAsync();
                 return Page();
             }
 
-            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            try
             {
-                await connection.ExecuteAsync(
-                    "sp_ManageChartofAccounts",
-                    new
-                    {
-                        Action = "Update",
-                        Id = Account.Id,
-                        AccountName = Account.AccountName,
-                        AccountType = Account.AccountType,
-                        ParentId = Account.ParentId == 0 ? (int?)null : Account.ParentId
-                    },
-                    commandType: CommandType.StoredProcedure);
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+                {
+                    await connection.ExecuteAsync(
+                        "sp_ManageChartofAccounts",
+                        new
+                        {
+                            Action = "Update",
+                            Id = Account.Id,
+                            AccountName = Account.AccountName,
+                            AccountType = Account.AccountType,
+                            ParentId = Account.ParentId == 0 ? (int?)null : Account.ParentId
+                        },
+                        commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message.Contains("Circular reference"))
+                {
+                    TempData["UpdateError"] = "Invalid update: You cannot make an account a child of its own descendant.";
+                }
+                else
+                {
+                    TempData["UpdateError"] = "An unexpected error occurred while updating.";
+                }
+
+                await OnGetAsync();
+                return Page();
             }
 
             return RedirectToPage();
         }
+
+
 
         public async Task<IActionResult> OnPostDeleteAsync(int id)
         {
-            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            try
             {
-                await connection.ExecuteAsync(
-                    "sp_ManageChartofAccounts",
-                    new { Action = "Delete", Id = id },
-                    commandType: CommandType.StoredProcedure);
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+                {
+                    await connection.ExecuteAsync(
+                        "sp_ManageChartofAccounts",
+                        new { Action = "Delete", Id = id },
+                        commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception ex)
+            {
+                // You can check the number or message if you want to be more specific
+                TempData["DeleteError"] = "Unable to delete the account. It may be referenced by other data.";
+                await OnGetAsync(); // Reload the page data
+                return Page();
             }
 
             return RedirectToPage();
         }
+
     }
 
     public class AccountViewModel
