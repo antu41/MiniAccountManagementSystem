@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Antu\\MiniAccountManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\miniaccountmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\miniaccountmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -87,6 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MiniAccountManagementSystem",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj",
+              "RelativeToolTip": "MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T09:57:25.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\appsettings.json",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Program.cs",
@@ -107,12 +124,11 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T08:37:28.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T08:37:28.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ManageAccounts.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_AccountTree.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
@@ -156,12 +172,11 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T09:08:22.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T09:08:22.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ManageModuleAccess.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
@@ -169,12 +184,11 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowCkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T10:41:02.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T10:41:02.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ManageUsers.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml",
@@ -186,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ModuleAccessHelper.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
@@ -198,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateVoucher.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml",
@@ -210,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
@@ -222,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateVoucher.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
@@ -234,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SeedRoles.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
@@ -246,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "bootstrap.css",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -258,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ModuleAccessHelper.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
@@ -270,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ManageUsers.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
@@ -282,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ManageAccounts.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
@@ -295,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
