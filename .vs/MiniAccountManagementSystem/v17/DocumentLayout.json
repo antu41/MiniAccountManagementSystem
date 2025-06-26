@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Antu\\MiniAccountManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\shared\\_accounttree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\shared\\_accounttree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +27,36 @@
       "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\createvoucher.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\vouchers\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\seedroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\seedroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\moduleaccesshelper.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\moduleaccesshelper.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\manageaccounts.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\moduleaccesshelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\moduleaccesshelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\vouchers\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\createvoucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\managemoduleaccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\admin\\seedroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\admin\\seedroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\shared\\_accounttree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\shared\\_accounttree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|d:\\antu\\miniaccountmanagementsystem\\miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4E2FDAE-258E-49FA-B11E-A5B5619B8F71}|MiniAccountManagementSystem\\MiniAccountManagementSystem.csproj|solutionrelative:miniaccountmanagementsystem\\pages\\vouchers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +66,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeedRoles.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:41:58.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T10:36:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateVoucher.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:20:07.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwFQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T11:26:40.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T11:26:13.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ManageAccounts.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T09:54:06.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AccountTree.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T09:08:22.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CreateVoucher.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml",
@@ -62,88 +169,76 @@
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T11:19:33.801Z",
+              "WhenOpened": "2025-06-25T11:19:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModuleAccessHelper.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:03:22.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SeedRoles.cshtml.cs",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\SeedRoles.cshtml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAnwBAAAAAIAAAAAAAAAA==",
+              "Title": "ManageUsers.cshtml.cs",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:41:58.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T10:36:11.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageAccounts.cshtml",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T09:54:06.256Z",
+              "WhenOpened": "2025-06-26T07:01:46.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "ModuleAccessHelper.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ModuleAccessHelper.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T07:03:17.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ManageAccounts.cshtml.cs",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
               "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
               "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Admin\\ManageAccounts.cshtml.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAYwIwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T08:22:59.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateVoucher.cshtml.cs",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\CreateVoucher.cshtml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowCwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:20:07.466Z",
+              "DocumentIndex": 11,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T06:30:01.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T11:26:40.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ManageModuleAccess.cshtml",
               "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
               "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Admin\\ManageModuleAccess.cshtml",
@@ -152,30 +247,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-25T10:41:02.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Vouchers\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T11:26:13.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_AccountTree.cshtml",
-              "DocumentMoniker": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
-              "RelativeDocumentMoniker": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
-              "ToolTip": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
-              "RelativeToolTip": "MiniAccountManagementSystem\\Pages\\Shared\\_AccountTree.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T09:08:22.59Z"
             }
           ]
         }

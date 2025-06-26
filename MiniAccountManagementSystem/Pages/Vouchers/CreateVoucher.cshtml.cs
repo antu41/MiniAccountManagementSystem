@@ -8,7 +8,8 @@ using System.Data;
 
 namespace MiniAccountManagementSystem.Pages.Vouchers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Accountant")]
+
     public class CreateVoucherModel : PageModel
     {
         private readonly IConfiguration _configuration;

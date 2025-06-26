@@ -38,46 +38,51 @@
             }
         </div>
 
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-header">
-                    <h5>Add New Account</h5>
-                </div>
-                <div class="card-body">
-                    <form method="post" asp-page-handler="Create">
-                        <div class="mb-3">
-                            <label asp-for="Account.AccountName" class="form-label">Account Name</label>
-                            <input asp-for="Account.AccountName" class="form-control" required />
-                            <span asp-validation-for="Account.AccountName" class="text-danger"></span>
-                        </div>
+        @if (!User.IsInRole("Viewer"))
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Add New Account</h5>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" asp-page-handler="Create">
+                            <div class="mb-3">
+                                <label asp-for="Account.AccountName" class="form-label">Account Name</label>
+                                <input asp-for="Account.AccountName" class="form-control" required />
+                                <span asp-validation-for="Account.AccountName" class="text-danger"></span>
+                            </div>
 
-                        <div class="mb-3">
-                            <label asp-for="Account.AccountType" class="form-label">Account Type</label>
-                            <select asp-for="Account.AccountType" class="form-control" required>
-                                <option value="">Select Type</option>
-                                <option value="Cash">Cash</option>
-                                <option value="Bank">Bank</option>
-                                <option value="Receivable">Receivable</option>
-                            </select>
-                            <span asp-validation-for="Account.AccountType" class="text-danger"></span>
-                        </div>
+                            <div class="mb-3">
+                                <label asp-for="Account.AccountType" class="form-label">Account Type</label>
+                                <select asp-for="Account.AccountType" class="form-control" required>
+                                    <option value="">Select Type</option>
+                                    <option value="Cash">Cash</option>
+                                    <option value="Bank">Bank</option>
+                                    <option value="Receivable">Receivable</option>
+                                </select>
+                                <span asp-validation-for="Account.AccountType" class="text-danger"></span>
+                            </div>
 
-                        <div class="mb-3">
-                            <label asp-for="Account.ParentId" class="form-label">Parent Account</label>
-                            <select asp-for="Account.ParentId" class="form-control">
-                                <option value="">None (Root Account)</option>
-                                @foreach (var parent in Model.Accounts)
-                                {
-                                    <option value="@parent.Id">@parent.AccountName</option>
-                                }
-                            </select>
-                        </div>
+                            <div class="mb-3">
+                                <label asp-for="Account.ParentId" class="form-label">Parent Account</label>
+                                <select asp-for="Account.ParentId" class="form-control">
+                                    <option value="">None (Root Account)</option>
+                                    @foreach (var parent in Model.Accounts)
+                                    {
+                                        <option value="@parent.Id">@parent.AccountName</option>
+                                    }
+                                </select>
+                            </div>
 
-                        <button type="submit" class="btn btn-primary">Create Account</button>
-                    </form>
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        }
+
+
     </div>
 </div>
 

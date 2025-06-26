@@ -1,5 +1,5 @@
 -- sp_ManageUsers
-CREATE PROCEDURE sp_ManageUsers
+CREATE PROCEDURE [dbo].[sp_ManageUsers]
     @Action NVARCHAR(50),
     @UserId NVARCHAR(450) = NULL,
     @UserName NVARCHAR(256) = NULL,
@@ -14,20 +14,24 @@ BEGIN
         LEFT JOIN AspNetUserRoles ur ON u.Id = ur.UserId
         LEFT JOIN AspNetRoles r ON ur.RoleId = r.Id
     END
-    IF @Action = 'AssignRole'
+IF @Action = 'AssignRole'
+BEGIN
+    DECLARE @RoleId NVARCHAR(450)
+    SELECT @RoleId = Id FROM AspNetRoles WHERE Name = @RoleName
+
+    -- Remove all existing roles for the user
+    DELETE FROM AspNetUserRoles WHERE UserId = @UserId
+
+    -- Assign the new role
+    IF @RoleId IS NOT NULL
     BEGIN
-        DECLARE @RoleId NVARCHAR(450)
-        SELECT @RoleId = Id FROM AspNetRoles WHERE Name = @RoleName
-        IF NOT EXISTS (SELECT 1 FROM AspNetUserRoles WHERE UserId = @UserId AND RoleId = @RoleId)
-        BEGIN
-            INSERT INTO AspNetUserRoles (UserId, RoleId) VALUES (@UserId, @RoleId)
-        END
+        INSERT INTO AspNetUserRoles (UserId, RoleId) VALUES (@UserId, @RoleId)
     END
+END
+
     IF @Action = 'RemoveRole'
     BEGIN
-        DECLARE @RoleId2 NVARCHAR(450)
-        SELECT @RoleId2 = Id FROM AspNetRoles WHERE Name = @RoleName
-        DELETE FROM AspNetUserRoles WHERE UserId = @UserId AND RoleId = @RoleId2
+        DELETE FROM AspNetUserRoles WHERE UserId = @UserId
     END
 END;
 
@@ -76,11 +80,14 @@ BEGIN
         END
     END
 
-    IF @Action = 'List'
-    BEGIN
-        SELECT RoleName, ModuleName, CanAccess
-        FROM ModuleAccess
-    END
+IF @Action = 'List'
+BEGIN
+    SELECT RoleName, ModuleName, CanAccess
+    FROM ModuleAccess
+    WHERE (@RoleName IS NULL OR RoleName = @RoleName)
+      AND (@ModuleName IS NULL OR ModuleName = @ModuleName)
+END
+
 END
 
 -- sp_ManageChartofAccounts

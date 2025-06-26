@@ -19,14 +19,31 @@ namespace MiniAccountManagementSystem.Pages
         }
         public async Task<bool> HasAccessAsync(string roleName, string moduleName)
         {
-            using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+            if (string.IsNullOrWhiteSpace(roleName) || string.IsNullOrWhiteSpace(moduleName))
+                return false;
+
+            try
             {
-                var result = await connection.QueryFirstOrDefaultAsync<dynamic>(
-                    "sp_ManageModuleAccess",
-                    new { Action = "List", RoleName = roleName, ModuleName = moduleName },
-                    commandType: CommandType.StoredProcedure);
-                return result?.CanAccess == true;
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+                {
+                    var result = await connection.QueryFirstOrDefaultAsync<ModuleAccessResult>(
+                        "sp_ManageModuleAccess",
+                        new { Action = "List", RoleName = roleName, ModuleName = moduleName },
+                        commandType: CommandType.StoredProcedure);
+
+                    return result?.CanAccess ?? false;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
+
+        private class ModuleAccessResult
+        {
+            public bool CanAccess { get; set; }
+        }
+
     }
 }
