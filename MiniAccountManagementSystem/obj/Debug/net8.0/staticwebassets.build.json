@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IV+K7eXRGussG6QHDU3GyrnQR77EYVfytUiwsJ0Ut/M=",
+  "Hash": "LAuHSY5Svcu7MO9BifnFeT61X7PuuutYPcWCJVSnQI4=",
   "Source": "MiniAccountManagementSystem",
   "BasePath": "_content/MiniAccountManagementSystem",
   "Mode": "Default",
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ozu22stjof",
-      "Integrity": "ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=",
+      "Fingerprint": "ikdl1sgd4w",
+      "Integrity": "Dvf+zJ8KoF29sNRZXOLp3LEUAOmb4GC58Df5GyFlrw0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -5057,7 +5057,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "215356"
+          "Value": "319365"
         },
         {
           "Name": "Content-Type",
@@ -5065,11 +5065,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
+          "Value": "\"Dvf+zJ8KoF29sNRZXOLp3LEUAOmb4GC58Df5GyFlrw0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 04:22:52 GMT"
+          "Value": "Thu, 26 Jun 2025 07:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5079,7 +5079,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
+          "Value": "sha256-Dvf+zJ8KoF29sNRZXOLp3LEUAOmb4GC58Df5GyFlrw0="
         }
       ]
     },
@@ -5162,6 +5162,51 @@
         {
           "Name": "integrity",
           "Value": "sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.ikdl1sgd4w.css",
+      "AssetFile": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dvf+zJ8KoF29sNRZXOLp3LEUAOmb4GC58Df5GyFlrw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 07:40:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ikdl1sgd4w"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dvf+zJ8KoF29sNRZXOLp3LEUAOmb4GC58Df5GyFlrw0="
         }
       ]
     },
@@ -5326,51 +5371,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "D:\\Antu\\MiniAccountManagementSystem\\MiniAccountManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "215356"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Jun 2025 04:22:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ozu22stjof"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZMvmWDSU4zY1Z29EQGm5Mubfz/YxF4hiReGqx84o4tA="
         }
       ]
     },

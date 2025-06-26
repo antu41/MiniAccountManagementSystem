@@ -16,6 +16,65 @@
         alert("@TempData["DeleteError"]");
     </script>
 }
+@section Scripts{
+    <style>
+        .account-tree {
+            border-left: 2px solid #dee2e6;
+            margin-left: 10px;
+        }
+
+        .account-node {
+            position: relative;
+            padding: 8px 15px;
+            border-bottom: 1px solid #f8f9fa;
+        }
+
+            .account-node::before {
+                content: '';
+                position: absolute;
+                left: -2px;
+                top: 0;
+                bottom: 50%;
+                border-left: 2px solid #dee2e6;
+            }
+
+            .account-node::after {
+                content: '';
+                position: absolute;
+                left: -2px;
+                top: 50%;
+                width: 15px;
+                border-top: 2px solid #dee2e6;
+            }
+
+            .account-node:last-child::before {
+                bottom: 50%;
+            }
+
+        .account-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .account-details {
+            flex-grow: 1;
+        }
+
+        .account-actions {
+            margin-left: 10px;
+        }
+
+        .account-children {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        .btn-sm {
+            margin-left: 5px;
+        }
+    </style>
+}
 
 
 <div class="container-fluid">
@@ -135,60 +194,3 @@
     </div>
 }
 
-<style>
-    .account-tree {
-        border-left: 2px solid #dee2e6;
-        margin-left: 10px;
-    }
-
-    .account-node {
-        position: relative;
-        padding: 8px 15px;
-        border-bottom: 1px solid #f8f9fa;
-    }
-
-    .account-node::before {
-        content: '';
-        position: absolute;
-        left: -2px;
-        top: 0;
-        bottom: 50%;
-        border-left: 2px solid #dee2e6;
-    }
-
-    .account-node::after {
-        content: '';
-        position: absolute;
-        left: -2px;
-        top: 50%;
-        width: 15px;
-        border-top: 2px solid #dee2e6;
-    }
-
-    .account-node:last-child::before {
-        bottom: 50%;
-    }
-
-    .account-info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .account-details {
-        flex-grow: 1;
-    }
-
-    .account-actions {
-        margin-left: 10px;
-    }
-
-    .account-children {
-        margin-left: 20px;
-        margin-top: 5px;
-    }
-
-    .btn-sm {
-        margin-left: 5px;
-    }
-</style>
