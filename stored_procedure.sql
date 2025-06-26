@@ -36,7 +36,7 @@ END
 END;
 
 -- sp_ManageModuleAccess
-ALTER PROCEDURE [dbo].[sp_ManageModuleAccess]
+CREATE PROCEDURE [dbo].[sp_ManageModuleAccess]
     @Action NVARCHAR(50),
     @RoleName NVARCHAR(256) = NULL,
     @ModuleName NVARCHAR(100) = NULL,
