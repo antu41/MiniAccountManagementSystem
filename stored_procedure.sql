@@ -162,3 +162,31 @@ BEGIN
         FROM ChartOfAccounts
     END
 END
+
+-- sp_SaveVoucher
+CREATE PROCEDURE sp_SaveVoucher
+    @VoucherType NVARCHAR(50),
+    @VoucherDate DATE,
+    @ReferenceNo NVARCHAR(50),
+    @Details VoucherDetailsType READONLY
+AS
+BEGIN
+    BEGIN TRANSACTION
+    DECLARE @VoucherId INT
+    INSERT INTO Vouchers (VoucherType, VoucherDate, ReferenceNo)
+    VALUES (@VoucherType, @VoucherDate, @ReferenceNo)
+    SET @VoucherId = SCOPE_IDENTITY()
+
+    INSERT INTO VoucherDetails (VoucherId, AccountId, Debit, Credit)
+    SELECT @VoucherId, AccountId, Debit, Credit
+    FROM @Details
+    COMMIT
+END;
+
+-- sp_GetVouchers
+CREATE PROCEDURE sp_GetVouchers
+AS
+BEGIN
+    SELECT Id, VoucherType, VoucherDate, ReferenceNo
+    FROM Vouchers
+END;
